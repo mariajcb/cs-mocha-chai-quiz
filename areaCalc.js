@@ -4,3 +4,10 @@
  }
 
  console.log(areaCalc(3, 4, 5));
+
+
+// The first function, areaCalc(),
+// simply calculates the area of a triangle given
+// three lengths using Heron's formula.
+
+module.exports = areaCalc;

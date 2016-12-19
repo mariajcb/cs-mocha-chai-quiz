@@ -39,4 +39,9 @@ let pokeArray = [{
   weight: 60.2
 }]
 
-console.log(pokeSort(pokeArray, 'name'));
+console.log(pokeSort(pokeArray, 'weight'));
+
+// The second function, pokeSort(), sorts
+// an array of pokemon objects either by weight, name, or id.
+
+module.exports = pokeSort;
